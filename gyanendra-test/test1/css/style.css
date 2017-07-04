@@ -1,0 +1,141 @@
+body {font-family:'Open Sans', sans-serif;font-size:14px}
+img {width: 100%;height: auto;}
+
+
+/*Top Header Start*/
+.top-header {background:#ff0060;display: block;padding:.5em 1.2em;color:#fff}
+.top-header p{margin:0}
+.close-item{position:absolute;right:4px;top:2px;background:#fff;padding:2px 8px;border-radius:100px;height:25px;width:25px;cursor:pointer; color:#333;}
+
+
+/*Navbar Start*/
+a, .navbar-light .navbar-nav .nav-link{color:#002a45}
+.navbar-brand img{max-width:122px}
+#navbarTogglerDemo02{justify-content:center}
+a:hover, .navbar-light .navbar-nav .nav-link:hover{color: #a0c32a;text-decoration: none}
+.navbar-toggleable-md .navbar-nav .nav-link{padding-right: 1rem;padding-left: 1rem}
+
+.dropdown-menu{min-width:300px;padding: 1em;border:0px;border-radius: 0;font-size: 1em;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.50);
+-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.50);
+box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.50); 
+}
+.dropdown-menu li{padding:3px;}
+
+
+/*Jumbotron Start*/
+.jumbotron{padding:1.5rem 2rem;background:#ededed}
+.jumbotron-heading{float:left;font-size:2.5em;}
+.jumbotron .btn.btn-lg.btn-primary{background: #aacf30;
+    background: -webkit-linear-gradient(#aacf30, #92b716);
+    background: -o-linear-gradient(#aacf30, #92b716);
+    background: -moz-linear-gradient(#aacf30, #92b716);
+    background: linear-gradient(#aacf30, #92b716);
+    border: 0px;
+}
+.jumbotron .btn.btn-lg.btn-primary:hover{background:#002a45;/* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#015e9b, #003d66); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#015e9b, #003d66); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#015e9b, #003d66); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#015e9b, #003d66); /* Standard syntax (must be last) */}
+
+
+/*Main Container Start*/
+.main-section{margin-bottom:6em;}
+.container.block-1{display:flex;justify-content: space-between;flex-wrap:wrap}
+#section_a{display: flex;flex-wrap: wrap;justify-content: space-around}
+.item-block{margin-bottom:4em}
+.card-block{text-align:center;background:rgba(0, 0, 0, .125);}
+.card-title{margin-bottom:0;font-size:1.1em}
+.item-block .title h4{margin-bottom:.2rem}
+.item-block .title p{margin-bottom:1.5rem;font-size:18px;color:#a0a0a0;font-weight:500}
+.main_container .card{max-width:251px}
+
+/*Left Sidebar Start*/
+.col-md-12.col-lg-3.sidebar_left{background: #ededed;padding:10px 15px}
+button.accordion{background-color:#ededed;color:#a0c32a;cursor:pointer;padding:12px 5px;width:100%;border:none;text-align:left;outline:none;    font-size: 1.2em;transition: 0.4s;font-weight: 500;}
+.store-link{padding: 12px 5px;}
+.store-link a{color:#a0c32a;cursor:pointer;width:100%;text-align:left;font-size:1.2em;font-weight:500}
+button.accordion.active, button.accordion:hover{background-color:#ededed}
+button.accordion:after{content:'\002B';color:#777;font-weight:bold;float:right;margin-left:5px}
+button.accordion.active:after{content:"\2212"}
+div.panel{background-color:#ededed;max-height:0;overflow:hidden;transition: max-height 0.2s ease-out}
+.panel ul{padding-left:10px}
+.panel a {color: #002a45;font-size: 16px;font-weight: 400}
+.panel a:hover{color:#a0c32a;}
+.panel li{list-style:none}
+.panel li a:hover{text-decoration:none}
+
+/*Gallery Start*/
+#block-gallery .title h4{padding:.5em 0}
+
+
+/***Footer***/
+
+.footer1 {background: #f5f5f5 url("../images/footer/footer-bg.png") repeat scroll left top;padding-top:40px;padding-right:0;padding-bottom:20px;
+	padding-left: 0;/*	border-top-width: 4px;	border-top-style: solid;	border-top-color: #003;*/}
+
+.title-widget{color:#898989;font-size:20px;font-weight:300;line-height:1;position:relative;text-transform:uppercase;font-family:'Fjalla One', sans-serif;margin-top:0;margin-right:0;margin-bottom:25px;margin-left:0;padding-left: 28px;}
+.title-widget::before{background-color: #ea5644;content: "";height: 22px;left: 0px;position: absolute;top:-2px;width:5px;}
+.widget_nav_menu ul{list-style:outside none none;padding-left:0;}
+.widget_archive ul li{background-color:rgba(0, 0, 0, 0.3);content:"";height:3px;left:0;position:absolute;top:7px;width:3px}
+.widget_nav_menu ul li{font-size:13px;font-weight:700;line-height:20px;position:relative;text-transform:uppercase;border-bottom:1px solid rgba(0, 0, 0, 0.05);margin-bottom: 7px;padding-bottom:7px;width:95%;}
+.title-median{color:#636363;font-size:20px;line-height:20px;margin:0 0 15px;text-transform: uppercase;}
+
+#social:hover{-webkit-transform:scale(1.1); -moz-transform:scale(1.1); -o-transform:scale(1.1);}
+#social{-webkit-transform:scale(0.8); -moz-transform:scale(0.8); -o-transform:scale(0.8); -webkit-transition-duration: 0.5s; 
+-moz-transition-duration: 0.5s; -o-transition-duration: 0.5s;} 
+.social-fb:hover{color:#3B5998;}
+.social-tw:hover{color:#4099FF;}
+.social-gp:hover{color: #d34836;}
+.social-em:hover{color: #f39c12;}
+.nomargin { margin:0px; padding:0px;}
+
+.footer-bottom{background-color:#002a45;min-height:30px;width:100%}
+.copyright{color:#fff;line-height:30px;min-height:30px;padding: 7px 0}
+.design{color:#fff;line-height:30px;min-height:30px;padding: 7px 0;text-align:right}
+.design a{color:#fff;}
+
+
+/**Footer end**/
+
+
+/*Responsive Start */
+
+@media (min-width:992px) {
+    .navbar.navbar-toggleable-md.navbar-light.bg-faded{position:absolute;width:100%;z-index:9;background:none}
+    .card-deck .card:not(:last-child){margin-right:20px}
+    .col-md-12.col-lg-3.sidebar_left{max-width:23%;margin-right:2%}
+}
+
+@media (max-width:991px) {
+    .col-md-12.col-lg-3.sidebar_left{margin-bottom:2em}
+    .navbar-toggleable-md>.container{width:100%}
+}
+@media (max-width:768px) {
+   .design, .copyright{text-align: center}
+}
+@media (max-width:767px) and (min-width:480px) {
+  .card-columns {display:block;column-count:2;}
+}
+
+
+@media (max-width:576px) {
+    .main-section{margin-bottom:3em;}
+    .dropdown-menu{min-width:280px;}
+    .container.block-1 {display:flex;justify-content:space-around;align-items:center;flex-wrap:wrap}
+    .item-block{text-align:center}
+    .item-block .title h4{font-size:1.3em}
+    .item-block .title p{font-size:1em}
+    .jumbotron{padding:1.5rem 2rem}
+    .jumbotron-heading{font-size:2em}    
+    #gallery-block .title{text-align:center;margin-bottom:1.5em}    
+}
+
+@media (max-width:479px){
+   .card-columns{display:table;margin: 0 auto}
+}
+
+@media (min-width:320px) {
+    .main_container .card {margin-bottom:20px}
+}
